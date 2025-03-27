@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-image:focus {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.nav-list {
+  justify-content: center;
+}

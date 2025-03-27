@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+.feedback-form {
+  margin: 0 auto;
+  width: 360px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #2e2f42;
+  line-height: 24px;
+  font-family: 'montserrat', sans-serif;
+}
+
+.feedback-form input {
+  border: 1px solid #808080;
+  border-radius: 1px;
+}
+
+.feedback-form textarea {
+  resize: none;
+  border: 1px solid #808080;
+  border-radius: 1px;
+}
+
+.feedback-form input:hover {
+  border: 1px solid #000000;
+}
+
+.feedback-form input::placeholder {
+  color: transparent;
+}
+
+.feedback-form input:active::placeholder {
+  color: #2e2f42;
+}
+
+.feedback-form textarea:hover {
+  border: 1px solid #000000;
+}
+
+.feedback-form textarea::placeholder {
+  color: transparent;
+}
+
+.feedback-form textarea:active::placeholder {
+  color: #2e2f42;
+}
+
+.feedback-form button {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  line-height: 24px;
+  padding: 8px 16px;
+  font-family: 'montserrat', sans-serif;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}
